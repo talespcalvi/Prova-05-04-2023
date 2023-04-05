@@ -1,0 +1,116 @@
+main {
+    background-image: linear-gradient(white, #DAE6EE, #D5E6F1);
+}
+
+ul.barra {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+    list-style-type: none;
+    background-color: #277AE3;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.barra li {
+    border-right: 2px solid white;
+    padding: 10px;
+    padding-right: 90px;
+    transition-duration: 0.2s;
+}
+
+.barra li:hover {
+    color: black;
+    transform: scale(1.0);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.center {
+    width: 700px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    filter: brightness(100%);
+    transition: 0.2s ease;
+}
+
+.center:hover {
+    filter: brightness(150%);
+}
+
+.box {
+    width: 750px;
+    height: 650px;
+    float: left;
+    margin-left: 20px;
+}
+.box h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #277AE3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+.box h4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container > div {
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #277AE3;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.container h3{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container > div:hover {
+    color: black;
+    background-color: #D5E6F1;
+    transform: scale(1.0);
+}
+
+footer {
+    background-color: #277AE3;
+    padding: 20px;
+}
